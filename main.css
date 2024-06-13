@@ -1,5 +1,5 @@
 /* ===== Designing a layout using flexbox ===== */
-*{margin: 0; padding: 0; color: #fff;}
+*,*::after,*::before{margin: 0; padding: 0; color: #fff; box-sizing:border-box;}
 
 /* Header Styles */
 header {
