@@ -1,0 +1,67 @@
+/* ===== Designing a layout using flexbox ===== */
+*{margin: 0; padding: 0; color: #fff;}
+
+/* Header Styles */
+header {
+    padding: 20px;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#logo {
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    background-color: cornflowerblue;
+    width: 100px; height: 50px;
+}
+
+/* Main menu styles */
+#main-menu {
+    padding: 10px;
+    align-content: center;
+    background-color: cadetblue;
+}
+#main-menu ul {list-style: none; cursor: pointer;}
+#main-menu li {display: inline;padding: 10px;}
+#main-menu a {text-decoration: none;}
+#main-menu li:hover {background-color: cornflowerblue;}
+
+/* Main content */
+main {
+    padding: 10px;
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero styling */
+#hero {
+    padding: 10px;
+    background-color: darkorange;
+    height: 400px;
+}
+
+#wrap{
+    padding: 10px;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.articles {
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: darkorchid;
+    width: 200px; height: 200px;
+}
+
+footer {
+    padding: 20px;
+    background-color: sienna;
+}
